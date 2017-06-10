@@ -59,6 +59,11 @@ p {
 .text-darker {
   color: rgba(47, 47, 47, 0.7);
 }
+.text-footer {
+  color: rgba(47, 47, 47, 0.7);
+  font-size: 12px;
+
+}
 section {
   padding: 100px 0;
 }
