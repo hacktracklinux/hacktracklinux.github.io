@@ -419,5 +419,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: transparent;
+  webkit-tap-highlight-color: black;
 }
