@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #A4000F;
+  border-color: #67000A;
   border-width: 3px;
   max-width: 50px;
 }
@@ -23,7 +23,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #A4000F;
+  color: #67000A;
 }
 a:hover,
 a:focus {
@@ -43,10 +43,10 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #A4000F;
+  background-color: #67000A;
 }
 .bg-dark {
-  background-color: #222222;
+  background-color: #F0F0F0;
   color: black;
 }
 .text-faded {
@@ -70,7 +70,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #A4000F;
+  color: #67000A;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ aside {
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
-  color: #222222;
+  color: #F0F0F0;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -90,15 +90,15 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #222222;
+  color: #F0F0F0;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #A4000F;
+  color: #67000A;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #A4000F !important;
+  color: #67000A !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -130,7 +130,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #A4000F;
+    color: #67000A;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -139,11 +139,11 @@ aside {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #F0F0F0;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #A4000F;
+    color: #67000A;
   }
 }
 header {
@@ -281,14 +281,14 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #A4000F;
+  color: #67000A;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
+  color: #F0F0F0;
   background-color: black;
   border-color: black;
   -webkit-transition: all 0.35s;
@@ -301,7 +301,7 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
+  color: #F0F0F0;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -333,12 +333,12 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default .badge {
   color: black;
-  background-color: #222222;
+  background-color: #F0F0F0;
 }
 .btn-primary {
   color: black;
-  background-color: #A4000F;
-  border-color: #A4000F;
+  background-color: #67000A;
+  border-color: #67000A;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -376,11 +376,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #A4000F;
-  border-color: #A4000F;
+  background-color: #67000A;
+  border-color: #67000A;
 }
 .btn-primary .badge {
-  color: #A4000F;
+  color: #67000A;
   background-color: black;
 }
 .btn {
@@ -396,12 +396,12 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: black;
   text-shadow: none;
-  background: #222222;
+  background: #F0F0F0;
 }
 ::selection {
   color: black;
   text-shadow: none;
-  background: #222222;
+  background: #F0F0F0;
 }
 img::selection {
   color: black;
@@ -412,5 +412,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #F0F0F0;
 }
