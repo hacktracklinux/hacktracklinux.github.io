@@ -49,8 +49,15 @@ p {
   background-color: #F0F0F0;
   color: black;
 }
+.bg-darker {
+  background-color: #F0F0F0;
+  color: black;
+}
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+}
+.text-darker {
+  color: rgba(47, 47, 47, 0.7);
 }
 section {
   padding: 100px 0;
